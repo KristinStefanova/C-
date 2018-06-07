@@ -1,2 +1,2 @@
-# C-
-Personal repository for C++ projects
+# Projects 
+Personal repository for projects
