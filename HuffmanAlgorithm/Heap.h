@@ -102,7 +102,7 @@ void MinHeap<T>::bubbleDown(unsigned int index)
         minIndex = indexLeft;
     }
 
-    if((indexRight < length) && compare(vec[indexRight], vec[minIndex]))  // if parent is greater than his right child(koeto ne izliza izwyn razmera)
+    if((indexRight < length) && compare(vec[indexRight], vec[minIndex]))  // if parent is greater than his right child
     {
         minIndex = indexRight;
     }
