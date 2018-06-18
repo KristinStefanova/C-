@@ -73,7 +73,7 @@ bool compare(T f, T s)
     return f < s;
 }
 
-/* Priemame che listata nikoga ne narushawat uslowieto*/
+/* We assume that leaves never break the rule*/
 template <typename T>
 void MinHeap<T>::constructHeap()
 {
